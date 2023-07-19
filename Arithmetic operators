@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Add {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner n=new Scanner(System.in);
+		System.out.println("a=");
+		int a=n.nextInt();
+		//Scanner m=new Scanner(System.in);
+		System.out.println("b=");
+		int b=n.nextInt();
+		System.out.println("c=");
+		int c=n.nextInt();
+    	int d = b/a;
+		System.out.println("d: "+ d);
+		System.out.println("Sum :" +((a+b)*c-(b/a)));
+
+	}
+
+}
