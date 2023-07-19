@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class UpLow {
+	static void sortString(String str)
+	{
+		char[]arr=str.toCharArray();
+		Arrays.sort(arr);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String S1="sowndhu";
+		String S2="bhuvi";
+		sortString(S1);
+		String[] name= {"abi","sowndhu","bhuvi","sri"};
+		Arrays.sort(name);
+		System.out.println("lenghth of string 1 & 2: " +S1.length()+" "+S2.length());
+		System.out.println("Turn to uppercase:" +S1.toUpperCase());
+		System.out.println("Turn to lowercase:" +S2.toLowerCase());
+		System.out.println("Sorting of string:" +Arrays.toString(name));
+	}
+
+}
