@@ -1,0 +1,21 @@
+public class swap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str="sowndary";
+		char[] sc=str.toCharArray();
+		int count=1;
+//		System.out.println(str1.length());
+		int length=str.length();
+		for(int i=0;i<length;i+=2){
+			System.out.println(count);
+			char temp = sc[i];
+            sc[i] = sc[i + 1];
+            sc[i+1]=sc[i+1];
+            sc[i + 1] = temp;
+            count++;
+		}
+		String result=String.valueOf(sc);
+		System.out.println("result : " + result);
+}
+}
