@@ -1,0 +1,17 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    String str="codecode";
+	    String revStr="";
+	    if(str.length() >= 1 && str.length() <= 100 && str.matches("[a-z]+")){
+	           for(int i=0;i<str.length();i++)
+	           {
+	               revStr=str.charAt(i) +revStr;
+	           }
+	           	System.out.println("Reversed String: " +revStr);
+	        }
+	        else{
+	            System.out.println("Invalid input");
+	        }
+	    }
+}
